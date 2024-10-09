@@ -174,7 +174,7 @@ class Jobs extends Component {
       case apiStatusConstants.success:
         return this.renderJobsList()
       case apiStatusConstants.failure:
-        return this.renderfailureView()
+        return this.renderFailureView()
       case apiStatusConstants.inProgress:
         return this.renderLoadingView()
       default:

@@ -44,7 +44,7 @@ class JobItemDetails extends Component {
     employmentType: data.employment_type,
     id: data.id,
     jobDescription: data.job_description,
-    lifeStCompany: {
+    lifeAtCompany: {
       description: data.life_at_company.description,
       imageUrl: data.life_at_company.image_url,
     },
@@ -58,7 +58,7 @@ class JobItemDetails extends Component {
     })),
   })
 
-  fetJobData = async () => {
+  getJobData = async () => {
     this.setState({apiStatus: apiStatusConstants.inProgress})
     const {match} = this.props
     const {params} = match
@@ -166,7 +166,7 @@ class JobItemDetails extends Component {
             </div>
             <div className="location-package-container">
               <div className="location-employee-container">
-                <div className="locatin-container">
+                <div className="location-container">
                   <MdLocationOn className="location-icon" />
                   <p className="location-heading">{location}</p>
                 </div>

@@ -20,7 +20,7 @@ const FiltersGroup = props => {
     const {getJobs, searchInput} = props
     return (
       <div className="search-input-container">
-        <label htmlFor="searchInput" className="visually-didden">
+        <label htmlFor="searchInput" className="visually-hidden">
           Search
         </label>
         <input
@@ -123,9 +123,9 @@ const FiltersGroup = props => {
     <div className="filters-group-container">
       {renderSearchInput()}
       <ProfileDetails />
-      <hr className="horizontail-line" />
+      <hr className="horizontal-line" />
       {renderTypeOfEmployment()}
-      <hr className="horixontal-line" />
+      <hr className="horizontal-line" />
       {renderSalaryRange()}
     </div>
   )

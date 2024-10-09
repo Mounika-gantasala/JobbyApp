@@ -9,10 +9,10 @@ const Home = () => (
     <Header />
     <div className="home-container">
       <div className="home-content">
-        <h1 className="home-heading">Find The Job That Dits Your Life</h1>
+        <h1 className="home-heading">Find The Job That Fits Your Life</h1>
         <p className="home-description">
           Millinors of people are searching for jobs, salary information,
-          company reviews. Find the job thst fitd your abilities and potential.
+          company reviews. Find the job that fits your abilities and potential.
         </p>
         <Link to="/jobs">
           <button type="button" className="shop-now-button">

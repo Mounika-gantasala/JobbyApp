@@ -26,7 +26,7 @@ class ProfileDetails extends Component {
     const apiUrl = 'https://apis.ccbp.in/profile'
     const options = {
       headers: {
-        AuthoriZation: `Bearer ${token}`,
+        Authorization: `Bearer ${token}`,
       },
       method: 'GET',
     }

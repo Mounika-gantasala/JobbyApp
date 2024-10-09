@@ -96,7 +96,7 @@ class LoginForm extends Component {
     return (
       <>
         <div className="login-form-container">
-          <form className="form-container" onSubmit={this.submitfoem}>
+          <form className="form-container" onSubmit={this.submitForm}>
             <img
               src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
               className="website-logo"
